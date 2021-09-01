@@ -1,0 +1,11 @@
+Problem 3:
+
+The greedy algorithm will not always work
+for [2, 3, 5, 6] and the sum required 10, it works
+
+Example that will not work
+[2, 3, 5, 6] and the sum required 11
+it will continue adding till 5 as the sum will be 10 < 11
+and when adding 6, the sum will be > 11 -> retuens "false"
+
+while the subset {2, 3, 6} gives the sum 11
