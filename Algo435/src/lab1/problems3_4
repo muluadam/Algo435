@@ -9,3 +9,22 @@ it will continue adding till 5 as the sum will be 10 < 11
 and when adding 6, the sum will be > 11 -> retuens "false"
 
 while the subset {2, 3, 6} gives the sum 11
+
+____________________________________________________________________________________________
+Problem 4:
+S = {s0, s1, s2, ....., sn-3, sn-2, sn-1}
+T = {s0, s2, sn-1} //for example
+k = s0 + s2 + sn-1;
+
+The statement is true since the removing sn-1 from S and T will result in a subset T'
+S' = {s0, s1, s2, s3, . . ., sn-2}
+T' = {s0, s2} //which is still a subset of S'
+and the new sum is
+k' = k - sn-1
+
+another example if
+T = {sn-3, sn-2, sn-1}
+each time we remove the last element from both T and S will result in new T' which is still
+subset from the new S'
+and the sum of elements of T' will be equal to the previous k - the element removed until it reaches 0
+when T' becomes empty (phi)
