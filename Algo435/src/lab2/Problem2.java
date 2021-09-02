@@ -1,5 +1,11 @@
 package lab2;
 
+/*
+ * since the input arrays are already sorted
+ * Time Complexity: O(n) where n = len1 + len2
+ * as the basic operations are repeated n times total through the while loops
+ */
+
 public class Problem2 {
 	int[] merge(int[] arr1, int[] arr2) {
 		int len1 = arr1.length;
