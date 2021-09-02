@@ -26,9 +26,5 @@ public class Gcd {
 		System.out.println(gcd.gcdEuclidean(12,18));
 		System.out.println(gcd.gcd(12,18));
 	}
-	
-	//References
-	//https://math.stackexchange.com/questions/1793165/euclid-gcd-intuition
-	//https://www.freecodecamp.org/news/euclidian-gcd-algorithm-greatest-common-divisor/
 
 }

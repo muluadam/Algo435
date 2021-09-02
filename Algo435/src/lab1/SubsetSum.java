@@ -4,11 +4,7 @@ public class SubsetSum {
 
 	/*
 	 * Brute-force recursive
-	 * Resources
-	 * https://iq.opengenus.org/subset-sum-problem-recursive-approach/
-	 * https://en.wikipedia.org/wiki/Brute-force_search
-	 * https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
-	 * check visualization in the link above
+	 * 
 	 * each call to the solve method results in two calls
 	 * one ignoring the current element and the other considering it in the sum
 	 */

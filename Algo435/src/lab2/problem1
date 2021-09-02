@@ -1,0 +1,23 @@
+int[] arrays(int n) {
+int[] arr = new int[n];
+for(int i = 0; i < n; ++i){
+arr[i] = 1;
+}
+for(int i = 0; i < n; ++i) {
+for(int j = i; j < n; ++j){
+arr[i] += arr[j] + i + j;
+}
+}
+return arr;
+}
+
+Solution
+line 2: n + 1 operations
+line 3: 4n + 1
+line 4: 2n + 1
+line 6: 3n + 1
+line 7: 3n(n + 1)/2 + 1
+line 8: 6n(n + 1)/2 + 1
+line 11: 1
+
+neglecting lower order operations, the running time is O(n2)
